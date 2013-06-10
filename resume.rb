@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'rdiscount'
 require 'sass'
+require_relative 'local.rb'
 
 class SassEngine < Sinatra::Base
   set :views,   File.dirname(__FILE__)    + '/assets/sass'
