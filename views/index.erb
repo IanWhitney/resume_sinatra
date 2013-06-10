@@ -6,38 +6,30 @@
 		<title>Ian Whitney's Resume</title>
 		<meta name="description" content="Ian Whitney's Resume">
 		<meta name="author" content="Ian Whitney">
-		<link href="/stylesheets/styles.css" media="all" rel="stylesheet" type="text/css" />
+		<link href="/stylesheets/bootstrap.css" media="all" rel="stylesheet" type="text/css" />
+		<link href="/stylesheets/responsive.css" media="screen" rel="stylesheet" type="text/css" />
 	</head>
-	<body>
-		<header class='page-header' role='banner'>
+	<body class='container'>
+		<header class='page-header hero-unit' role='banner'>
 			<h1>Ian Whitney</h1>
     </header>
-    <nav>
-      &nbsp;
-    </nav>
     <article role='main'>
       <section>
-        <h1>Summary</h1>
+        <h1>Contact</h1>
       </section>
       <section>
         <h1>Employment</h1>
-        <article>
-          <h1>Web Application Developer</h1>
-          <h2>Senior Service America</h2>
-          <h3>July, 2003 &ndash; Present</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar venenatis orci, et porttitor dolor adipiscing et. Nunc non dapibus odio, eu dictum elit. Praesent eros nisl, molestie in quam ut, luctus tincidunt arcu. Cras vitae arcu lobortis, vestibulum lacus quis, bibendum neque. Aliquam et mollis lectus. Duis fringilla sollicitudin felis, sed pretium ligula congue quis. Morbi a iaculis nulla. Phasellus ornare pretium elementum. Etiam quis porta nibh, eu interdum nulla. Curabitur tincidunt purus viverra.</p>
+        <article class='job'>
+          <%= jobs['job_07_2003_ssai'] %>
         </article>
-        <article>
-          <h1>Development Project Manager</h1>
-          <h2>Gelco Information Network</h2>
-          <h3>April, 2002 &ndash; November, 2002</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar venenatis orci, et porttitor dolor adipiscing et. Nunc non dapibus odio, eu dictum elit. Praesent eros nisl, molestie in quam ut, luctus tincidunt arcu. Cras vitae arcu lobortis, vestibulum lacus quis, bibendum neque. Aliquam et mollis lectus. Duis fringilla sollicitudin felis, sed pretium ligula congue quis. Morbi a iaculis nulla. Phasellus ornare pretium elementum. Etiam quis porta nibh, eu interdum nulla. Curabitur tincidunt purus viverra.</p>
+        <article class='job'>
+          <%= jobs['job_04_2002_gelco'] %>
         </article>
-        <article>
-          <h1>President</h1>
-          <h2>Open Eye, Incorporated</h2>
-          <h3>December, 1999 &ndash; April, 2002</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar venenatis orci, et porttitor dolor adipiscing et. Nunc non dapibus odio, eu dictum elit. Praesent eros nisl, molestie in quam ut, luctus tincidunt arcu. Cras vitae arcu lobortis, vestibulum lacus quis, bibendum neque. Aliquam et mollis lectus. Duis fringilla sollicitudin felis, sed pretium ligula congue quis. Morbi a iaculis nulla. Phasellus ornare pretium elementum. Etiam quis porta nibh, eu interdum nulla. Curabitur tincidunt purus viverra.</p>
+        <article class='job'>
+          <%= jobs['job_12_1999_open_eye'] %>
+        </article>
+        <article class='job'>
+          <%= personal %>
         </article>
       </section>
     </article>
