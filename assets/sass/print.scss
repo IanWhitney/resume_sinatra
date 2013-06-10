@@ -13,9 +13,11 @@
 
 $baseFontSize:          12pt;
 $baseLineHeight:        14pt;
+$baseFontFamily:        $serifFontFamily;
 
 body {
   width: 8in;
+  color: $black;
   font: {
     size: $baseFontSize;
     line-height: $baseLineHeight;
@@ -23,10 +25,10 @@ body {
 }
 
 header h1, .hero-unit h1 {
-    color: $creamWhite; }
+    color: $black; }
 
 section h1 {
-  color: $blueGrey; }
+  color: $black; }
 
 article.job * {
   margin-left: 20px;}
@@ -34,33 +36,32 @@ article.job * {
 article.job>:first-child {
   margin-left: 10px;
   padding: 6px;
-  color: $creamWhite;}
+  color: $black;}
 
 article.job>:first-child:first-line {
-  color: $creamWhite;
+  color: $black;
   font: {
     size: $baseFontSize * 1.50; }}
 
 article.job h2 {
-  color: $lightGreen;
+  color: $black;
   font: {
-    size: $baseFontSize * 1.2;}
+    size: $baseFontSize * 1.0;}
   margin: 0px;
-  margin-left: 10px;
+  margin-left: 20px;
   }
 
-section article h3 {
-  font: {
-    family: sans-serif }}
+ul {
+  margin-left: 0px;
+  padding-left: 5px;
+}
 
-section article h4 {
-  font: {
-    family: sans-serif }}
+ul ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}
 
-section article ul {
-  font: {
-    family: sans-serif }}
-
-section article li {
-  font: {
-    family: sans-serif }}
+ul ul ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}
