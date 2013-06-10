@@ -1,0 +1,66 @@
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+// Core variables and mixins
+@import "variables"; // Modify this for custom colors, font-sizes, etc
+
+$baseFontSize:          12pt;
+$baseLineHeight:        14pt;
+
+body {
+  width: 8in;
+  font: {
+    size: $baseFontSize;
+    line-height: $baseLineHeight;
+  };
+}
+
+header h1, .hero-unit h1 {
+    color: $creamWhite; }
+
+section h1 {
+  color: $blueGrey; }
+
+article.job * {
+  margin-left: 20px;}
+
+article.job>:first-child {
+  margin-left: 10px;
+  padding: 6px;
+  color: $creamWhite;}
+
+article.job>:first-child:first-line {
+  color: $creamWhite;
+  font: {
+    size: $baseFontSize * 1.50; }}
+
+article.job h2 {
+  color: $lightGreen;
+  font: {
+    size: $baseFontSize * 1.2;}
+  margin: 0px;
+  margin-left: 10px;
+  }
+
+section article h3 {
+  font: {
+    family: sans-serif }}
+
+section article h4 {
+  font: {
+    family: sans-serif }}
+
+section article ul {
+  font: {
+    family: sans-serif }}
+
+section article li {
+  font: {
+    family: sans-serif }}
