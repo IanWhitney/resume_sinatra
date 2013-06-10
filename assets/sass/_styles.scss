@@ -9,6 +9,10 @@ header h1, .hero-unit h1 {
 
 section h1 {
   color: $blueGrey; }
+  
+section>p {
+  margin-left: 20px;
+}
 
 article.job * {
   margin-left: 20px;}
