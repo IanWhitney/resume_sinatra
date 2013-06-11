@@ -1,12 +1,12 @@
 Web Application Developer  
 Senior Service America  
-7/2003 - Present
+7/2003 &ndash; Present
 
 ## Wrote and maintain a collection of data-entry applications in Rails
-- Used to enroll, verify and track participants in a Federal job-training program as well as a computer-skills education course
-- Integrates with an external accounting system to track spending and budgets
-- Along with the main data-entry pages, the system has a variety of features
-  - AJAX UX, used to handle long-running requests and prevent frequent full-page reloads
+- Developed tools to enroll, verify and track participants in a Federal job-training program as well as a computer-skills education course
+- Integrated these applications with an external accounting system to track spending and budgets
+- Continually added new features and tools, such as:
+  - AJAX UX, used to handle prevent frequent full-page reloads and long-running requests
     - Implemented with both Prototype and JQuery
   - Multi-step 'wizard' forms for lengthy and complex tasks
   - User and system administration pages
@@ -16,30 +16,31 @@ Senior Service America
     - Flexible and designed for expansion, such as sending text messages or contacting other APIs
   - Print-specific layouts using CSS
 - Upgraded this application from Ruby 1.8.7/Rails 2.1 application to Ruby 1.9.3/Rails 3.2
-- Switched application from a MySQL backend to a blend of Postgres and Redis
+- Converted the peristence layer from a MySQL backend to a blend of Postgres and Redis
 
 ## Co-designed and co-developed Rails gems
-- ActiveRecord-like interaction with Redis
+- ActiveRecord-like interface for Redis
 - Tools to import data into Redis
 - Gem to convert structured CSV data to objects
 - Gem to add warnings to ActiveRecord validations
   - Warns a user that the data fails to meet expectations, but does not
     prevent saving
+- Gems deployed to the community on RubyGems: http://rubygems.org/profiles/iwhitney
 
 ## Public HTML site
 - Converted a legacy public site from an inaccessible nested-table layout to a standards-compliant CSS layout
 - Focused on accessibility features like access keys, flexible font sizes and a simple template
-- Updated site frequently over 8 years until it was retired
+- Updated site frequently for over 8 years until it was retired
 
 ## Agile and OOP Practices
 - Advocated Agile development, introduced the idea to my office
 - Worked with clients and business analysts to define requirement and deliver features through iteration
-- Experienced pair programmer, both in person and with screen-sharing tools
+- Pair Program frequently, both in person and with screen-sharing tools
 - Researched and implemented sound OOP design patterns such as: Presenters, Decorators, Builders and Factories.
 - Follow trends and innovations in Ruby and Rails via blogs, podcasts and Ruby User Groups
 
 ## DevOps
-- Experience with CVS, Subversion and Git to manage a code-promotion based workflow
+- Implemented a code-promotion workflow in CVS, Subversion and Git
 - Configured an Apache server to use Passenger for Rails deployment
 - Developed deployment scripts for both in-house servers and Heroku
 - Used RVM and Bash to manage local development environments

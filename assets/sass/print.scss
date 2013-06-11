@@ -12,8 +12,8 @@
 @import "variables"; // Modify this for custom colors, font-sizes, etc
 @import "mixins"; 
 
-$baseFontSize:          12pt;
-$baseLineHeight:        14pt;
+$baseFontSize:          11pt;
+$baseLineHeight:        13pt;
 $baseFontFamily:        $serifFontFamily;
 
 body {
@@ -54,7 +54,7 @@ article.job>:first-child {
 article.job>:first-child:first-line {
   color: $black;
   font: {
-    size: $baseFontSize * 1.50; }}
+    size: $baseFontSize * 1.30; }}
 
 article.job h2 {
   color: $black;
@@ -63,6 +63,10 @@ article.job h2 {
   margin: 0px;
   margin-left: 5px;
   }
+
+sup {
+  margin: 0px;
+}
 
 ul {
   margin-left: 0px;
