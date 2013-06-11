@@ -6,7 +6,7 @@ Senior Service America
 - Used to enroll, verify and track participants in a Federal job-training program as well as a computer-skills education course
 - Integrates with an external accounting system to track spending and budgets
 - Along with the main data-entry pages, the system has a variety of features
-  - AJAX-heavy UX, used to handle long-running requests and prevent frequent full-page reloads
+  - AJAX UX, used to handle long-running requests and prevent frequent full-page reloads
     - Implemented with both Prototype and JQuery
   - Multi-step 'wizard' forms for lengthy and complex tasks
   - User and system administration pages

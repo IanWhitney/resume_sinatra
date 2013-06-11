@@ -1,4 +1,3 @@
-# Personal Projects
 - Redis-based Rails app that uses an API for the Internet Movie Database to display movie recommendations
   - Implements ActiveRecord-like scoping in Redis
   - HTML5 document structure

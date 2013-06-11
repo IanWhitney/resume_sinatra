@@ -10,6 +10,7 @@
 
 // Core variables and mixins
 @import "variables"; // Modify this for custom colors, font-sizes, etc
+@import "mixins"; 
 
 $baseFontSize:          12pt;
 $baseLineHeight:        14pt;
@@ -25,17 +26,29 @@ body {
 }
 
 header h1, .hero-unit h1 {
+    letter-spacing: 0.1em;
+    border-bottom: 2px double black;
+    font: {
+      size: $baseFontSize * 2;}
     color: $black; }
 
 section h1 {
+  font: {
+    family: $sansFontFamily; }
   color: $black; }
 
-article.job * {
+section p {
+  margin-left: 20px;}
+
+article * {
   margin-left: 20px;}
 
 article.job>:first-child {
-  margin-left: 10px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  @include border-radius(2px);
   padding: 6px;
+  margin-left: 0px;
   color: $black;}
 
 article.job>:first-child:first-line {
@@ -48,7 +61,7 @@ article.job h2 {
   font: {
     size: $baseFontSize * 1.0;}
   margin: 0px;
-  margin-left: 20px;
+  margin-left: 5px;
   }
 
 ul {
