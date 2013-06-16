@@ -17,12 +17,7 @@
     <article role='main'>
       <section>
         <h1>Contact</h1>
-        <p>
-          <strong>Email</strong>: <%= ENV['contact_email'] %><br />
-          <strong>Phone</strong>: <%= ENV['contact_phone'] %><br />
-          <strong>Address</strong>: <%= ENV['contact_address'] %><br />
-          <strong>GitHub</strong>: https://github.com/IanWhitney<br />
-        </dl>
+        <%= markdown("#{erb :contact}") %>
       </section>
       <section>
         <h1>Employment</h1>
