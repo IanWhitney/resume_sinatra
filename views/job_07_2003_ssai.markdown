@@ -2,7 +2,7 @@ Web Application Developer
 Senior Service America  
 7/2003 &ndash; Present
 
-## Full-stack development and maintenance of a collection of data-entry applications in Rails
+## Full-stack development and maintenance of multiple Ruby on Rails applications
 - Developed tools to enroll, verify and track participants in a Federal job-training program as well as a computer-skills education course
 - Integrated these applications with an external accounting system to track spending and budgets
 - Continually added new features and tools, such as:
@@ -16,7 +16,7 @@ Senior Service America
     - Flexible and designed for expansion, such as sending text messages or contacting other APIs
   - Print-specific layouts using CSS
 - Upgraded this application from Ruby 1.8.7/Rails 2.1 application to Ruby 1.9.3/Rails 3.2
-- Converted the peristence layer from a MySQL backend to a blend of Postgres and Redis
+- Converted the persistence layer from a MySQL backend to a blend of Postgres and Redis
 
 ## Co-designed and co-developed Rails gems
 - ActiveRecord-like interface for Redis
