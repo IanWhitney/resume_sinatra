@@ -18,6 +18,9 @@ $baseFontFamily:        $serifFontFamily;
 
 body {
   width: 8in;
+  margin: 0;
+  margin-left: 1in;
+  margin-right: 1in;
   color: $black;
   font: {
     size: $baseFontSize;
@@ -61,7 +64,7 @@ article.job h2 {
   font: {
     size: $baseFontSize * 1.0;}
   margin: 0px;
-  margin-left: 5px;
+  margin-left: 10px;
   }
 
 sup {
@@ -70,7 +73,7 @@ sup {
 
 ul {
   margin-left: 0px;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 ul ul {
