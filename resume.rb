@@ -28,6 +28,10 @@ class ResumeApp < Sinatra::Base
     erb :index, :locals => { :jobs => jobs, :personal => markdown(:personal) }
   end
 
+  get '/cover' do
+    erb :cover
+  end
+
   if __FILE__ == $0
     ResumeApp.run! :port => 4000
   end
