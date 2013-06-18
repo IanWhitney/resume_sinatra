@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Ian Whitney's Resume">
+		<meta name="author" content="Ian Whitney">
+		<link href="/stylesheets/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="/stylesheets/responsive.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+	</head>
+	<body class='container'>
+		<header class='page-header hero-unit' role='banner'>
+			<h1>Ian Whitney</h1>
+    </header>
+    <article role='main'>
+      <section>
+        <h1>Contact</h1>
+        <%= markdown("#{erb :contact}") %>
+      </section>
+      <article>
+        <%= Date.today.strftime("%b %-d, %Y")  %>
+        <%= markdown(:cover_letter) %>
+      </article>
+    </article>
+	</body>
+</html>
+
